@@ -1,0 +1,19 @@
+
+public class Main {
+
+    public static double computeAverage(int total, int count) {
+        if (count <= 0) {
+            return 0.0;
+        }
+
+        return (double) total / count;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(computeAverage(5, 2));
+        System.out.println(computeAverage(10, 0));
+        System.out.println(computeAverage(100, 8));
+        System.out.println(computeAverage(20, 4));
+    }
+}
+
